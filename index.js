@@ -1,3 +1,4 @@
 const app = "I don't do much."
 
-var = 
+var dodger = document.getElementById('dodger');
+
