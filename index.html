@@ -24,7 +24,7 @@ document.body.addEventListener('keydown', function(e) {
 document.body.addEventListener('keydown', function(e) {
   if (e.which === 39) {
     var rightNumbers = dodger.style.right.replace('px', '')
-    var right = parseInt(tightNumbers, 10)
+    var right = parseInt(rightNumbers, 10)
  
     dodger.style.right = `${right - 1}px`
   }
